@@ -10,6 +10,10 @@
  <!-- Calling bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
+
+  <!-- my stylesheet --> 
+<link rel="stylesheet" href= "assets/stylesheet.css">
+
 </head>
 <body>
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
@@ -26,7 +30,7 @@
           </div>
         </div>
       </nav>
-  
+  <!-- this is jumbotron --> 
       <div class="jumbotron jumbotron-fluid">
           <div class="container">
             <h2 class="display-3">Here is my Portfolio!</h2>
@@ -36,8 +40,8 @@
 
 <!-- this is the div with the about me -->
 
-
-        <div class="main-container container-fluid">
+<div class="col-sm-6">
+    
             <section id="project-portfolio">
         
               <!-- a list using placeholder images for now -->
@@ -105,28 +109,35 @@
                       </div>
                     </div>
                   </div>
-
-      <div class="col-md-4 container-fluid">
-        <div class="panel">
-          <div class="panel-heading">
-            <h3 class="panel-title">Connect With Me!</h3>
-          </div>
-          <div class="panel-body">
-              <ul>
-                  <!-- linking my github-->        
-                          <li><a href="https://github.com/AshleighBarnard"><img class="img-thumbnail"src="http://www.iconninja.com/files/363/595/735/github-icon.png" alt="GitHub Profile"></a></li>
-                   <!-- this is linked in -->
-                   <li><a href="https://www.linkedin.com/in/ashleigh-barnard"><img class="img-thumbnail" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Linkedin-icon.png" alt="LinkedIn Profile"></a></li>
-                    <!-- this is stack overflow -->      
-                          <li><a href="https://stackoverflow.com/users/9220766/avocoder13"><img class="img-thumbnail" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66" alt="StackOverflow Profile"></a></li>
-                          </ul>
+                </div>
               
-          </div>
+   <!-- contact me section --> 
+   <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Connect With Me!</h3>
+        </div>
+        <div class="panel-body">
+
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a href="https://github.com/AshleighBarnard"><img class="img-circle"src="assets/github-icon.png" alt="GitHub Profile"></a>Github</button>
+                <button type="button" class="btn btn-secondary"><a href="https://www.linkedin.com/in/ashleigh-barnard"><img class="img-circle" src="assets/linkedin-icon.png" alt="LinkedIn Profile"></a>Linked In</button>
+                <button type="button" class="btn btn-secondary"><a href="https://stackoverflow.com/users/9220766/avocoder13"><img class="img-circle" src="assets/stack1.png" alt="StackOverflow Profile"></a>StackOverflow</button>
+              </div>
+
+
+    
+            </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
+  </div> 
 
+<!-- footer --> 
   <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
         <p class="navbar-text pull-left">© 2018 - Site Built By Ashleigh Barnard

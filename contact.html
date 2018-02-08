@@ -10,6 +10,9 @@
  <!-- Calling bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
+
+  <!-- my stylesheet --> 
+<link rel="stylesheet" href= "assets/stylesheet.css">
 </head>
 
 <body>
@@ -28,60 +31,77 @@
       </div>
     </div>
   </nav>
-<!-- this is the portfolio thing-->
-<div class="container margin-helper">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>Contact Me</h1>
+      
+<!-- this is jumbotron --> 
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="display-3">Want to get in touch?</h2>
+    </div>
+  </div>
+
+<!-- this is the form -->
+<div class="container">
+<div class="row">
+  <div class="col-sm-6">
+          <div class="row">
+            <div class="form_main">
+                        <h4 class="heading"><strong>Quick </strong> Contact <span></span></h4>
+                        <div class="form">
+                        <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
+                            <input type="text" required="" placeholder="Please input your Name" value="" name="name" class="txt">
+                            <input type="text" required="" placeholder="Please input your mobile No" value="" name="mob" class="txt">
+                            <input type="text" required="" placeholder="Please input your Email" value="" name="email" class="txt">
+                            
+                           <textarea placeholder="Your Message" name="mess" type="text" class="txt_3"></textarea>
+                             <input type="submit" value="submit" name="submit" class="txt2">
+                        </form>
+                    </div>
+                    </div>
+                    </div
+                    
+                  </div>
         </div>
-            <div class="main-container">
-                <section id="contact-form">
-                  <h2>Contact</h2>
-                  <form id="contact" action="login.php" method="post">    
-                    <label for="name">Name</label><br>
-                    <input id="name" type="text" autocomplete="username" placeholder="Jane Doe" required=""><br>
-                    <label for="email">Email</label><br>
-                    <input id="email" type="email" name="email" autocomplete="email" placeholder="example@gmail.com" required=""><br>
-                    <label for="textfield">Message</label><br>
-                    <textarea id="textfield" rows="7"></textarea><br>
-                    <button class="button" type="submit" name="submit">Submit</button>
-                  </form>
-                  </section>
-      </div>
+<!-- this is the contact panel -->
+  <div class="row top top-buffer">
+  <div class="col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Connect With Me!</h3>
+        </div>
+        <div class="panel-body">
 
-      <!-- this is the social media links --> 
 
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Connect With Me!</h3>
-          </div>
-          <div class="panel-body">
-              <ul>
-                  <!-- linking my github-->        
-                          <li><a href="https://github.com/AshleighBarnard"><img class="img-thumbnail"src="http://www.iconninja.com/files/363/595/735/github-icon.png" alt="GitHub Profile"></a></li>
-                   <!-- this is linked in -->
-                   <li><a href="https://www.linkedin.com/in/ashleigh-barnard"><img class="img-thumbnail" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Linkedin-icon.png" alt="LinkedIn Profile"></a></li>
-                    <!-- this is stack overflow -->      
-                          <li><a href="https://stackoverflow.com/users/9220766/avocoder13"><img class="img-thumbnail" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66" alt="StackOverflow Profile"></a></li>
-                          </ul>
-              
-          </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><a href="https://github.com/AshleighBarnard"><img class="img-circle"src="assets/github-icon.png" alt="GitHub Profile"></a>Github</button>
+                <button type="button" class="btn btn-secondary"><a href="https://www.linkedin.com/in/ashleigh-barnard"><img class="img-circle" src="assets/Linkedin-icon.png" alt="LinkedIn Profile"></a>Linked In</button>
+                <button type="button" class="btn btn-secondary"><a href="https://stackoverflow.com/users/9220766/avocoder13"><img class="img-circle" src="assets/stack1.png" alt="StackOverflow Profile"></a>StackOverflow</button>
+              </div>
+
+
+    
+            </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-  <div class="navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
-        <p class="navbar-text pull-left">© 2018 - Site Built By Ashleigh Barnard
-             <a href="http://tinyurl.com/tbvalid" target="_blank" ></a>
-        </p>
-  
-      </div>
+</div>
   </div>
+</div> 
+
+<!-- this is the footer --> 
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text pull-left">© 2018 - Site Built By Ashleigh Barnard
+           <a href="http://tinyurl.com/tbvalid" target="_blank" ></a>
+      </p>
+
+    </div>
+</div>
+
+
+
 </body>
 
 </html>
