@@ -19,6 +19,7 @@ form_main {
   bottom: -2px;
   height: 3px;
   left: 0;
+  right: 0;
   position: absolute;
   width: 75px;
 }   
@@ -46,6 +47,7 @@ form_main {
   font-style: normal;
   line-height: 35px;
   margin: 10px 0;
+  margin-bottom:10px 0;
   padding: 0;
   text-transform: uppercase;
   width: 30%;
@@ -59,3 +61,14 @@ form_main {
 .top-buffer { 
   margin-top: 70px;
 }
+
+.jumbotron{
+  background-image: url("../assets/oranges.png");
+  background-size: cover;
+  color: white;
+}
+
+body{
+  margin: 0px;
+}
+
